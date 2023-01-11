@@ -12,13 +12,11 @@ const caixa = document.getElementById("caixa");
     const btn2 = document.querySelector("#btn2");
 
 
-    // function clicar(){
-    //   let val = 3;
-    //   while(val > 0){
-    //     val--;
-    //     alert("Sem tentativas")
+    // caixa1.addEventListener("click", (event) => {    <-- aqui professor eu não sei se coloco um IF(), e onde dentro desse código eu coloco!
+    //   for(let valor = 3;val >= 0; valor--){        <-- por que acho que a lógica está certa!
+    //     alert("Sem tentativas restantes")
     //   }
-    // }
+    // })<--- esse final, não sei se devia estar lá no final ou aqui mesmo!!!
     
       btn1.addEventListener("click", (event) => {
       alert("Ache a caixa com a cor AMARELA!!!");
