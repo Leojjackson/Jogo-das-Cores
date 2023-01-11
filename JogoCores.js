@@ -23,6 +23,8 @@ const caixa = document.getElementById("caixa");
     caixa1.addEventListener("click", (event) => {
       if (caixa1.classList != "amarelo") {
         alert("Voçê errou! AMARELO nao está aqui!");
+        caixa1.textContent = "ERROU! TENTE NOVAMENTE"
+        caixa1.style.paddingTop = "10px" 
         caixa1.classList.add("azul");
       }
     });
@@ -30,6 +32,8 @@ const caixa = document.getElementById("caixa");
     caixa2.addEventListener("click", (event) => {
       if (caixa2.classList != "preto") {
         alert("Voçê errou! AMARELO nao está aqui!");
+        caixa2.textContent = "ERROU! TENTE NOVAMENTE"
+        caixa2.style.paddingTop = "10px" 
         caixa2.classList.add("preto");
       }
     });
@@ -38,6 +42,8 @@ const caixa = document.getElementById("caixa");
       if (caixa3.classList != "amarelo") {
         caixa3.classList.add("verde");
         alert("Voçê errou! AMARELO nao está aqui!");
+        caixa3.textContent = "ERROU! TENTE NOVAMENTE"
+        caixa3.style.paddingTop = "10px" 
       }
     });
 
@@ -45,6 +51,8 @@ const caixa = document.getElementById("caixa");
       if (caixa4.classList != "amarelo") {
         alert("Voçê errou! AMARELO nao está aqui!");
         caixa4.classList.add("roxo");
+        caixa4.textContent = "ERROU! TENTE NOVAMENTE"
+        caixa4.style.paddingTop = "10px" 
       }
     });
 
@@ -52,6 +60,8 @@ const caixa = document.getElementById("caixa");
       if(caixa5.classList != "amarelo"){
         alert("Voçê errou! AMARELO nao está aqui!!");
             caixa5.classList.add("rosa");
+            caixa5.textContent = "ERROU! TENTE NOVAMENTE"
+            caixa5.style.paddingTop = "10px" 
       }
     })
 
@@ -59,12 +69,16 @@ const caixa = document.getElementById("caixa");
       if(caixa6.classList != "amarelo"){
         alert("PARABÉNS VOCÊ ACHOU!!!");
         caixa6.classList.add("amarelo");
+        caixa6.textContent = "PARABÉNS"
+        caixa6.style.paddingTop = "15px" 
       }
     })
     caixa7.addEventListener("click", () => {
       if(caixa7.classList != "amarelo") {
         alert("Voçê errou! AMARELO nao está aqui!!");
         caixa7.classList.add("laranja")
+        caixa7.textContent = "ERROU! TENTE NOVAMENTE"
+        caixa7.style.paddingTop = "10px" 
       }
     })
 
@@ -72,6 +86,8 @@ const caixa = document.getElementById("caixa");
       if(caixa8.classList != "amarelo"){
         alert("Voçê errou! AMARELO nao está aqui!");
         caixa8.classList.add("azul_claro")
+        caixa8.textContent = "ERROU! TENTE NOVAMENTE"
+        caixa8.style.paddingTop = "10px" 
       }
     })
 
