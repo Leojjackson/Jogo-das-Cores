@@ -16,7 +16,7 @@ const caixa = document.getElementById("caixa");
     });
 
     caixa1.addEventListener("click", (event) => {
-      if (caixa1.classList != "preto") {
+      if (caixa1.classList != "amarelo") {
         alert("Voçê errou! PRETO nao está aqui!");
         caixa1.classList.add("azul");
       }
@@ -24,48 +24,48 @@ const caixa = document.getElementById("caixa");
 
     caixa2.addEventListener("click", (event) => {
       if (caixa2.classList != "preto") {
-        alert("PARABÈNS  VOCÊ ACHOU!");
+        alert("Voçê errou! AMARELO nao está aqui!");
         caixa2.classList.add("preto");
       }
     });
 
     caixa3.addEventListener("click", (event) => {
-      if (caixa3.classList != "preto") {
+      if (caixa3.classList != "amarelo") {
         caixa3.classList.add("verde");
-        alert("Voçê errou! PRETO nao está aqui!");
+        alert("Voçê errou! AMARELO nao está aqui!");
       }
     });
 
     caixa4.addEventListener("click", (event) => {
-      if (caixa4.classList != "preto") {
-        alert("Voçê errou! PRETO nao está aqui!");
+      if (caixa4.classList != "amarelo") {
+        alert("Voçê errou! AMARELO nao está aqui!");
         caixa4.classList.add("roxo");
       }
     });
 
     caixa5.addEventListener("click", () =>{
-      if(caixa5.classList != "preto"){
-        alert("Voçê errou! PRETO nao está aqui!");
+      if(caixa5.classList != "amarelo"){
+        alert("Voçê errou! AMARELO nao está aqui!!");
             caixa5.classList.add("rosa");
       }
     })
 
     caixa6.addEventListener("click", (event) => {
-      if(caixa6.classList != "preto"){
-        alert("Voçê errou! PRETO nao está aqui!");
+      if(caixa6.classList != "amarelo"){
+        alert("PARABÉNS VOCÊ ACHOU!!!");
         caixa6.classList.add("amarelo");
       }
     })
     caixa7.addEventListener("click", () => {
-      if(caixa7.classList != "preto") {
-        alert("Voçê errou! PRETO nao está aqui!");
+      if(caixa7.classList != "amarelo") {
+        alert("Voçê errou! AMARELO nao está aqui!!");
         caixa7.classList.add("laranja")
       }
     })
 
     caixa8.addEventListener('click', (event) =>{
-      if(caixa8.classList != "preto"){
-        alert("Voçê errou! PRETO nao está aqui!");
+      if(caixa8.classList != "amarelo"){
+        alert("Voçê errou! AMARELO nao está aqui!");
         caixa8.classList.add("azul_claro")
       }
     })
