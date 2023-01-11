@@ -11,13 +11,18 @@ const caixa = document.getElementById("caixa");
     const btn1 = document.querySelector("#btn1");
     const btn2 = document.querySelector("#btn2");
 
-    btn1.addEventListener("click", (event) => {
-      alert("Ache a caixa com a cor PRETA!!!");
+    // caixa.addEventListener("click", (event) => {
+    //   for(let val = 3; val >= 0; val--){
+    //     alert("Suas tentativas acabaram!!!")
+    //   }  
+    // })
+      btn1.addEventListener("click", (event) => {
+      alert("Ache a caixa com a cor AMARELA!!!");
     });
 
     caixa1.addEventListener("click", (event) => {
       if (caixa1.classList != "amarelo") {
-        alert("Voçê errou! PRETO nao está aqui!");
+        alert("Voçê errou! AMARELO nao está aqui!");
         caixa1.classList.add("azul");
       }
     });
@@ -75,3 +80,4 @@ const caixa = document.getElementById("caixa");
     btn2.addEventListener("click", (event) => {
       location.reload();
     });
+  
