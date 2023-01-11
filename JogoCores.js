@@ -11,11 +11,15 @@ const caixa = document.getElementById("caixa");
     const btn1 = document.querySelector("#btn1");
     const btn2 = document.querySelector("#btn2");
 
-    // caixa.addEventListener("click", (event) => {
-    //   for(let val = 3; val >= 0; val--){
-    //     alert("Suas tentativas acabaram!!!")
-    //   }  
-    // })
+
+    // function clicar(){
+    //   let val = 3;
+    //   while(val > 0){
+    //     val--;
+    //     alert("Sem tentativas")
+    //   }
+    // }
+    
       btn1.addEventListener("click", (event) => {
       alert("Ache a caixa com a cor AMARELA!!!");
     });
@@ -96,4 +100,4 @@ const caixa = document.getElementById("caixa");
     btn2.addEventListener("click", (event) => {
       location.reload();
     });
-  
+    
