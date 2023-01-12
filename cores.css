@@ -3,10 +3,23 @@
     padding: 0;
     box-sizing: border-box;
   }
+  /* ------------------------  */
   h1{
       margin-top: 80px;
       font: italic 40pt san-serif;
   }
+  h1:hover{
+    opacity: 0.3;
+  }
+  #btn1:hover{
+    font-size: larger;
+    padding:10px;
+  }
+  #btn2:hover{
+    font-size: larger;
+    padding:10px;
+  }
+
   body{
       background: #a8dcf0;
       display:flex;
