@@ -8,9 +8,9 @@ const caixa6 = document.getElementById("caixa6");
 const caixa7 = document.getElementById("caixa7");
 const caixa8 = document.getElementById("caixa8");
 
+
 const btn1 = document.querySelector("#btn1");
 const btn2 = document.querySelector("#btn2");
-
 
 btn1.addEventListener("click", (event) => {
   alert("Ache a caixa com a cor AMARELA!!!");
@@ -69,7 +69,7 @@ caixa6.addEventListener("click", (event) => {
     caixa6.style.paddingTop = "15px";
   }
 });
-caixa7.addEventListener("click", () => {
+caixa7.addEventListener("click", (event) => {
   if (caixa7.classList != "amarelo") {
     alert("Voçê errou! AMARELO nao está aqui!!");
     caixa7.classList.add("laranja");
