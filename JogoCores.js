@@ -14,6 +14,7 @@ const btn2 = document.querySelector("#btn2");
 
 btn1.addEventListener("click", (event) => {
   alert("Ache a caixa com a cor AMARELA!!!");
+  btn1.style.display = "none";
 });
 
 caixa1.addEventListener("click", (event) => {
@@ -89,4 +90,7 @@ caixa8.addEventListener("click", (event) => {
 
 btn2.addEventListener("click", (event) => {
   location.reload();
+  
 });
+
+
