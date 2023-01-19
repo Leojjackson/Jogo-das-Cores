@@ -14,10 +14,6 @@ h1:hover {
   opacity: 0.3;
 }
 
-#btn1::after {
-  display: none;
-}
-
 #btn1:hover {
   font-size: larger;
   padding: 10px;
@@ -26,6 +22,17 @@ h1:hover {
 #btn2:hover {
   font-size: larger;
   padding: 10px;
+}
+#btn2{
+  animation: slide 1s infinite alternate linear;
+}
+@keyframes slide {
+  from{
+    transform:scale(.7);
+  }
+  to{
+    transform: scale(1);
+  }
 }
 
 body {
