@@ -233,5 +233,19 @@ body {
     background-color:red;
     animation:none;
   }
-  
+  #caixa1,
+  #caixa2,
+  #caixa3,
+  #caixa4,
+  #caixa5,
+  #caixa6,
+  #caixa7,
+  #caixa8{
+    width:150px;
+  }
+  #caixa7,
+  #caixa8{
+    margin-bottom: 55px;
+  }
+
 }
