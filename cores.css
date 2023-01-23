@@ -173,9 +173,9 @@ body {
   background-color: #000;
 }
 
-.roxo {
+.vermelho {
   color: #000;
-  background-color: #d57;
+  background-color: red;
 }
 
 .azul {
@@ -208,7 +208,7 @@ body {
   background-color: rgb(247, 140, 1);
 }
 /* ----------------------------------- */
-@media all and (max-width:600px) {
+@media all and (max-width:400px) {
   h1{
     margin: 0px;
     color:green;

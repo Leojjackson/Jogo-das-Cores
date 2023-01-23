@@ -47,7 +47,7 @@ caixa3.addEventListener("click", (event) => {
 caixa4.addEventListener("click", (event) => {
   if (caixa4.classList != "amarelo") {
     alert("Voçê errou! AMARELO nao está aqui!");
-    caixa4.classList.add("roxo");
+    caixa4.classList.add("vermelho");
     caixa4.textContent = "ERROU! TENTE NOVAMENTE";
     caixa4.style.paddingTop = "10px";
   }
