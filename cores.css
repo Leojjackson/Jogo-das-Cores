@@ -36,7 +36,7 @@ h1:hover {
 }
 
 body {
-  background: #a8dcf0;
+  background: #000;
   display: flex;
   justify-content: center;
 }
@@ -147,7 +147,6 @@ body {
   top: 70px;
   left: 300px;
   background-color: #0f0;
-  box-shadow: 3px 3px 6px #0f0;
   border-radius: 20px;
   border: 0px solid;
 }
@@ -159,7 +158,6 @@ body {
   top: 170px;
   right: 300px;
   background-color: #f00;
-  box-shadow: 3px 3px 6px red;
   border-radius: 20px;
   border: 0px solid;
 }
@@ -208,7 +206,7 @@ body {
   background-color: rgb(247, 140, 1);
 }
 /* ----------------------------------- */
-@media all and (max-width:400px) {
+@media all and (max-width:600px) {
   h1{
     margin: 0px;
     color:green;
@@ -223,7 +221,7 @@ body {
   #btn1{
     position:absolute;
     top: -60px;
-    left: -10px;
+    left: -20px;
     width:170px;
     background-color:green;
   }
@@ -244,7 +242,7 @@ body {
   #caixa7,
   #caixa8{
     width:150px;
-    padding: 30px;
+    margin:10px;
   }
   #caixa7,
   #caixa8{
