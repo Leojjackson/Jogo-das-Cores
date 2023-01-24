@@ -215,8 +215,10 @@ body {
   }
   #caixa_principal{
     margin: 130px;
-    width: 350px;
-    height: 500px;
+    width: 100vw;
+    height: 100vh;
+    /* width: 350px; */
+    /* height: 500px; */
   }
   #btn1{
     position:absolute;
@@ -242,10 +244,11 @@ body {
   #caixa7,
   #caixa8{
     width:150px;
+    padding: 30px;
   }
   #caixa7,
   #caixa8{
-    margin-bottom: 55px;
+    margin-bottom: 225px;
   }
 
 }
