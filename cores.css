@@ -209,7 +209,7 @@ body {
 @media all and (max-width:720px) {
   h1{
     margin: 0px;
-    color:green;
+    color:#000;
   }
   h1:hover{
     opacity:1;
@@ -233,7 +233,7 @@ body {
     top: -60px;
     right: 10px;
     width:170px;
-    background-color:red;
+    background-color:#d00;
     animation:none;
   }
   #caixa1,
