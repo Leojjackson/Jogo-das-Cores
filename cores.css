@@ -36,7 +36,7 @@ h1:hover {
 }
 
 body {
-  background: #000;
+  background:#299 ;
   display: flex;
   justify-content: center;
 }
@@ -210,6 +210,9 @@ body {
   h1{
     margin: 0px;
     color:green;
+  }
+  h1:hover{
+    opacity:1;
   }
   #caixa_principal{
     margin: 130px;
