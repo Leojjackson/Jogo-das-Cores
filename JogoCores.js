@@ -12,7 +12,7 @@ const caixa8 = document.getElementById("caixa8");
 const btn1 = document.querySelector("#btn1");
 const btn2 = document.querySelector("#btn2");
 
-// btn1.addEventListener("click", ()=>{
+btn1.addEventListener("click", ()=>{
 setTimeout (function() {
   // btn1.style.display = "none";
   caixa1.classList.add("azul");
@@ -23,20 +23,21 @@ setTimeout (function() {
   caixa6.classList.add("amarelo");
   caixa7.classList.add("laranja");
   caixa8.classList.add("azul_claro");
+  
 }, 100);
-// });
-btn1.addEventListener("click", ()=>{
-setTimeout (function(){
-  caixa1.classList.remove("azul");
-  caixa2.classList.remove("preto");
-  caixa3.classList.remove("verde");
-  caixa4.classList.remove("vermelho");
-  caixa5.classList.remove("rosa");
-  caixa6.classList.remove("amarelo");
-  caixa7.classList.remove("laranja");
-  caixa8.classList.remove("azul_claro");
-}, 1000);
 });
+// btn1.addEventListener("click", ()=>{
+// setTimeout (function(){
+//   caixa1.classList.remove("azul");
+//   caixa2.classList.remove("preto");
+//   caixa3.classList.remove("verde");
+//   caixa4.classList.remove("vermelho");
+//   caixa5.classList.remove("rosa");
+//   caixa6.classList.remove("amarelo");
+//   caixa7.classList.remove("laranja");
+//   caixa8.classList.remove("azul_claro");
+// }, 1000);
+// });
   // alert("Ache a caixa com a cor AMARELA!!!");
 
 caixa1.addEventListener("click", (event) => {
