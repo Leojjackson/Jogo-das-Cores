@@ -4,10 +4,16 @@
   box-sizing: border-box;
 }
 
+
 /* ------------------------  */
 h1 {
   margin-top: 80px;
-  font: italic 40pt san-serif;
+  font: 40pt;
+}
+h1,
+#btn1,
+#btn2{
+  font-family: 'Roboto Slab', serif;
 }
 
 h1:hover {
