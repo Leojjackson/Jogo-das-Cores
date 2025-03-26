@@ -12,6 +12,14 @@ const caixa8 = document.getElementById("caixa8");
 const btn1 = document.querySelector("#btn1");
 const btn2 = document.querySelector("#btn2");
 
+
+function tentativas() {
+  let tetativas = 0;
+  let tentativasLimite = 5; 
+
+  
+}
+
 btn1.addEventListener("click", () => {
   alert("Ache a caixa com a cor AMARELA!!!");
 
