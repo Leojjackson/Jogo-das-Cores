@@ -42,7 +42,7 @@ h1:hover {
 }
 
 body {
-  background:#299 ;
+  background:rgb(29, 31, 31) ;
   display: flex;
   justify-content: center;
 }
