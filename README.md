@@ -1,4 +1,4 @@
-#Jogo-das-Cores
+# Jogo-das-Cores
  ##O primeiro jogo Criado! muito Simples, contudo bem bacana por ser o primeiro.
 Segue o link para o Jogo: https://jogodascores.netlify.app
 
